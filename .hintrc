@@ -15,6 +15,7 @@
     "meta-viewport": "off",
     "axe/text-alternatives": "off",
     "button-type": "off",
-    "axe/structure": "off"
+    "axe/structure": "off",
+    "axe/parsing": "off"
   }
 }
