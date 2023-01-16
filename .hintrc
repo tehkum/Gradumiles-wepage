@@ -16,6 +16,19 @@
     "axe/text-alternatives": "off",
     "button-type": "off",
     "axe/structure": "off",
-    "axe/parsing": "off"
-  }
+    "axe/parsing": "off",
+    "compat-api/html": [
+      "default",
+      {
+        "ignore": [
+          "iframe[allow]"
+        ]
+      }
+    ]
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not and_ff <= 107"
+  ]
 }
