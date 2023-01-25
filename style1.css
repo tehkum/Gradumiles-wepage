@@ -34,7 +34,20 @@ footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
 .social_footer_ul li i {  width:20px; height:20px; text-align:center;}
 
 
-
+.topbar.sitecolor {
+    background-color: #4183d7;
+}
+.topbar {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0px;
+    position: relative;
+    z-index: 9999;
+}
+.sitecolor {
+    color: #4183d7 !important;
+}
 .card{transition: transform 0.2s ease; box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18); border-radius: 0; border: 0; margin-bottom: 1.5em;}
 .card:hover {transform: scale(1.1);}
 
@@ -104,3 +117,18 @@ footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
 	  -webkit-box-shadow:-10px -10px 0 0 #D66D75, 10px 10px 0 0 #E29587;
 	box-shadow:10px -10px 0 0 #D66D75, -10px 10px 0 0 #E29587;
   }
+
+  .nav-item{
+    align-items: right;
+  }
+
+  nav ul {
+    list-style: none;
+    text-align: right;
+    color: black;
+}
+nav li {
+    display: inline-block;
+    text-align: left;
+    padding: 1vw;
+}
