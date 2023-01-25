@@ -24,7 +24,8 @@
           "iframe[allow]"
         ]
       }
-    ]
+    ],
+    "disown-opener": "off"
   },
   "browserslist": [
     "defaults",
