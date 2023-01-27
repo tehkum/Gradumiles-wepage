@@ -1,0 +1,33 @@
+[debug] [2023-01-26T17:23:29.501Z] ----------------------------------------------------------------------
+[debug] [2023-01-26T17:23:29.503Z] Command:       C:\Program Files (x86)\nodejs\node.exe C:\Users\tehku\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2023-01-26T17:23:29.503Z] CLI Version:   11.21.0
+[debug] [2023-01-26T17:23:29.503Z] Platform:      win32
+[debug] [2023-01-26T17:23:29.503Z] Node Version:  v16.17.0
+[debug] [2023-01-26T17:23:29.504Z] Time:          Thu Jan 26 2023 22:53:29 GMT+0530 (India Standard Time)
+[debug] [2023-01-26T17:23:29.504Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-01-26T17:23:29.585Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-01-26T17:23:29.586Z] > authorizing via signed-in user (tkhm1310@gmail.com)
+[debug] [2023-01-26T17:23:29.586Z] [iam] checking project gradumiles for permissions ["firebase.projects.get"]
+[debug] [2023-01-26T17:23:29.588Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/gradumiles:testIamPermissions [none]
+[debug] [2023-01-26T17:23:29.588Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/gradumiles:testIamPermissions x-goog-quota-user=projects/gradumiles
+[debug] [2023-01-26T17:23:29.588Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/gradumiles:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-01-26T17:23:31.189Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/gradumiles:testIamPermissions 200
+[debug] [2023-01-26T17:23:31.190Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/gradumiles:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-01-26T17:23:31.191Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/gradumiles [none]
+[debug] [2023-01-26T17:23:31.876Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/gradumiles 200
+[debug] [2023-01-26T17:23:31.876Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/gradumiles {"projectId":"gradumiles","projectNumber":"665903350282","displayName":"Gradumiles","name":"projects/gradumiles","resources":{"hostingSite":"gradumiles"},"state":"ACTIVE","etag":"1_d000674c-4b63-433b-bf22-3505cfae8df4"}
+[info] 
+[info] === Serving from 'C:\Users\tehku\OneDrive\Documents\GitHub\Gradumiles'...
+[info] 
+[debug] [2023-01-26T17:23:31.881Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/gradumiles/sites 
+[debug] [2023-01-26T17:23:33.295Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/gradumiles/sites 200
+[debug] [2023-01-26T17:23:33.295Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/gradumiles/sites {"sites":[{"name":"projects/gradumiles/sites/gradumiles","defaultUrl":"https://gradumiles.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2023-01-26T17:23:33.296Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/gradumiles/webApps/-/config [none]
+[debug] [2023-01-26T17:23:34.232Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/gradumiles/webApps/-/config 200
+[debug] [2023-01-26T17:23:34.232Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/gradumiles/webApps/-/config {"projectId":"gradumiles","storageBucket":"gradumiles.appspot.com","apiKey":"AIzaSyBTyX0tVQZsVR7b6o3EoQ99c4PGzx8MX-Y","authDomain":"gradumiles.firebaseapp.com","messagingSenderId":"665903350282"}
+[debug] [2023-01-26T17:23:34.236Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/gradumiles [none]
+[debug] [2023-01-26T17:23:34.935Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/gradumiles 200
+[debug] [2023-01-26T17:23:34.936Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/gradumiles {"projectId":"gradumiles","projectNumber":"665903350282","displayName":"Gradumiles","name":"projects/gradumiles","resources":{"hostingSite":"gradumiles"},"state":"ACTIVE","etag":"1_d000674c-4b63-433b-bf22-3505cfae8df4"}
+[info] i  hosting[gradumiles]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[gradumiles]: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
