@@ -1,9 +1,9 @@
 User-agent: Googlebot
-Disallow: 
+Disallow: /nogooglebot/
 User-agent: googlebot-image
-Disallow: 
+Disallow: /nogooglebot/
 User-agent: googlebot-mobile
-Disallow: 
+Disallow: /nogooglebot/
 User-agent: MSNBot
 Disallow: 
 User-agent: Slurp
