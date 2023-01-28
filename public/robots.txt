@@ -27,3 +27,5 @@ Disallow:
 User-agent: *
 Disallow: 
 Disallow: /cgi-bin/
+
+Sitemap: https://gradumiles.com/my_sitemap.xml
