@@ -1,9 +1,9 @@
 User-agent: Googlebot
-Disallow: /nogooglebot/
+Allow: /
 
 User-agent: *
 Allow: /
 
 
-Sitemap: https://gradumiles.com/my_sitemap.xml
-Sitemap: https://www.gradumiles.com/my_sitemap.xml
+Sitemap: https://gradumiles.com/sitemap.xml
+Sitemap: https://www.gradumiles.com/sitemap.xml
